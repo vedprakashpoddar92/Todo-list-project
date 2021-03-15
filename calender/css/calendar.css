@@ -1,0 +1,15 @@
+body{margin: 0; font-family: 'Lato', sans-serif;}
+*{margin: 0;box-sizing: border-box;}
+.wrapper{display: flex; width: 100vw;height: 100vh;background-color: #dfe6e9;}
+.calendar{width: 540px;background-color: #fff;margin: auto;box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);}
+.month{width: 100%;display: flex; text-align: center; align-items: center; background-color: #2e3d50;color: #fff;justify-content: space-between;padding: 20px 20px;}
+.weekends{background-color: #006699;color: #fff;display: flex;padding: 7px 0px;}
+.weekends div{width: 14.28%;text-align: center;}
+.days{display: flex;padding: 10px 0;flex-wrap: wrap;font-weight: 300;}
+.days div{width: 14.28%;text-align: center;margin-bottom: 10px;padding: 10px 0; transition: all 0.4s;}
+.days div:hover{background-color: #dfe6e9;cursor: pointer;}
+.today{background-color: #27ae60;color: #fff;}
+.prev_date{color: #cac1c1;}
+#month{font-size: 30px;font-weight: 500;}
+.prev,.next{display: flex; justify-content: center; font-size: 23px; width: 50px;height: 50px; align-items: center; background-color: rgba(0, 0, 0, 0.1); border-radius: 50%;transition: all 0.4s; cursor: pointer;}
+.prev:hover,.next:hover{background-color: rgba(0, 0, 0, 0.3);}
